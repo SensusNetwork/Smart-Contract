@@ -24,3 +24,4 @@ interface IKeysManager {
     function getInitialKey(address) public view returns(uint8);
     function migrateInitialKey(address) public;
     function migrateMiningKey(address) public;
+    }
